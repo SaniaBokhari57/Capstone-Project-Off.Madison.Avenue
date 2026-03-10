@@ -1,6 +1,7 @@
 # Capstone-Project-Off.Madison.Avenue
 
-- Predictive Behavioral Analytics Using LighthousePE Geolocation Data
+Predictive Behavioral Analytics Using LighthousePE Geolocation Data
+  
 🧠Overview
 This project was completed in collaboration with Off Madison Ave (OMA), a behavioral‑science‑driven creative agency. The goal was to transform multi‑year LighthousePE geolocation data into a predictive system capable of forecasting:
 
