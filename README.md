@@ -2,7 +2,7 @@
 
 Predictive Behavioral Analytics Using LighthousePE Geolocation Data
   
-🧠Overview
+# 🧠Overview
 
 This project was completed in collaboration with Off Madison Ave (OMA), a behavioral‑science‑driven creative agency. The goal was to transform multi‑year LighthousePE geolocation data into a predictive system capable of forecasting:
 
@@ -11,7 +11,8 @@ This project was completed in collaboration with Off Madison Ave (OMA), a behavi
 
 The solution supports personalized engagement, churn prevention, cross‑promotion, and real‑time marketing activation for casino and travel clients.
 
-🎯 Objectives
+# 🎯 Objectives
+
 - Predict customer revisit timing.
 - Predict the next location a customer is likely to visit.
 - Enable proactive engagement using predictive analytics.
@@ -20,7 +21,8 @@ The solution supports personalized engagement, churn prevention, cross‑promoti
 
 Assess cross‑domain model portability across casino and travel clients.
 
-🧩 Business Problem
+# 🧩 Business Problem
+
 Businesses collect massive amounts of behavioral and mobility data but struggle to convert it into timely, actionable insight.
 OMA needed a scalable, interpretable system that could:
 
@@ -29,8 +31,8 @@ OMA needed a scalable, interpretable system that could:
 - Integrate seamlessly into marketing workflows
 - Improve targeting and engagement timing
 
-🔄 Workflow
-The full pipeline included:
+# 🔄 Workflow- The full pipeline included:
+
 1. Exploratory Analysis
 2. Cohort Construction
 3. Feature Engineering
@@ -38,7 +40,8 @@ The full pipeline included:
 5. Performance Evaluation
 6. Prediction Target Creation
 
-🛠️ Technical Approach
+# 🛠️ Technical Approach
+
 1. Time‑Aware Data Split
 To avoid temporal leakage, we used a chronological train‑validation‑test split, ensuring models learned only from past behavior.
 
@@ -69,7 +72,8 @@ Evaluation metrics included:
 - AUC & PR‑AUC
 - Precision & Recall
 
-📊 Key Results
+# 📊 Key Results
+
 1. Top predictors included recency, dwell‑time changes, and 7/30/90‑day visit frequencies.
 2. Most users revisited within 0–2 hours, showing strong short‑term engagement.
 3. Twin Pine Casino & Hotel and Twin Pine Vicinity captured most predicted revisits.
@@ -88,7 +92,8 @@ XGBoost Top‑3	0.92
 XGBoost Accuracy (Revisit Timing)	0.55
 XGBoost F1 (Revisit Timing)	0.55
 
-🔍 Engagement Behavior Insights
+# 🔍 Engagement Behavior Insights
+
 Models accurately captured when and where users return.
 1. Short revisit intervals indicate strong real‑time engagement potential.
 2. Strong Top‑3 next‑location accuracy confirms the ability to rank user intent.
@@ -96,7 +101,8 @@ Models accurately captured when and where users return.
 
 The system converts historical movement into forward‑looking predictions, validating readiness for operational use.
 
-📁 Project Deliverables
+# 📁 Project Deliverables
+
 1. SQL Queries
 Reusable scripts for:
 Data extraction
